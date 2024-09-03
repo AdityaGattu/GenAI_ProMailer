@@ -1,10 +1,15 @@
-# 📧 Cold Mail Generator
+# 📧 GenAI - ProMailer
 Cold email generator for services company using groq, langchain and streamlit. It allows users to input the URL of a company's careers page. The tool then extracts job listings from that page and generates personalized cold emails. These emails include relevant portfolio links sourced from a vector database, based on the specific job descriptions. 
 
 **Imagine a scenario:**
 
-- Nike needs a Principal Software Engineer and is spending time and resources in the hiring process, on boarding, training etc
-- Atliq is Software Development company can provide a dedicated software development engineer to Nike. So, the business development executive (Mohan) from Atliq is going to reach out to Nike via a cold email.
+Scenario for Apple:
+
+Apple's Hiring Needs: Apple is actively searching for a Software Development Engineer in Site Reliability Engineering (SRE) to enhance its machine learning infrastructure and large-scale distributed systems, dedicating significant resources to the hiring, onboarding, and training process.
+
+Atliq's Expertise: Atliq, a software development company, has a team of experts with extensive experience in Python, Java, and DevOps for machine learning applications. They can provide a dedicated software engineer skilled in these areas to meet Apple's immediate needs.
+
+Business Outreach: Ram, a business development executive at Atliq, sends a cold email to Apple, proposing a partnership where Atliq's dedicated engineer can quickly integrate into Apple's team, reducing the time and cost associated with traditional hiring and training.
 
 ![img.png](imgs/img.png)
 
@@ -25,8 +30,3 @@ Cold email generator for services company using groq, langchain and streamlit. I
    streamlit run app/main.py
    ```
    
-
-Copyright (C) Codebasics Inc. All rights reserved.
-
-**Additional Terms:**
-This software is licensed under the MIT License. However, commercial use of this software is strictly prohibited without prior written permission from the author. Attribution must be given in all copies or substantial portions of the software.
